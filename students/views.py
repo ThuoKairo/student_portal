@@ -4,3 +4,6 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'students/home.html')
 
+#About view for portal 
+def about(request):
+    return render(request, 'students/about.html')
